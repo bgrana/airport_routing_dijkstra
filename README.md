@@ -1,4 +1,4 @@
-# SiteCore Technical Test
+# Airport routing with Dijkstra
 
 For this test, I am tasked to find the shortest route between two airports given a series of connections between them. The project is implemented using `Python 3.7`.
 
