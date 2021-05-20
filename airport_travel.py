@@ -94,7 +94,7 @@ def dijkstra(nodes, distances, start):
         # the rest of the nodes are not connected to the source one so we end.
         if not candidates: break
 
-        next_node = sorted(candidates, key = lambda x: x[1]['distance'])[0]
+        next_node = min(candidates, key = lambda x: x[1]['distance'])
         current = next_node[0]
         currentDistance = next_node[1]['distance']
     return visited
